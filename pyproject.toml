@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "homework-web-07"
+version = "0.1.0"
+description = ""
+authors = ["oleksandr-study <140350329+oleksandr-study@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.28"
+psycopg2 = "^2.9.9"
+alembic = "^1.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
